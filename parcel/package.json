@@ -1,0 +1,22 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "This a use parcel example",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel serve --port 8080 src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "npx gh-pages -d dist"
+  },
+  "keywords": [
+    "package",
+    "parcel",
+    "api"
+  ],
+  "author": "Robert Vásquez <vasquezrober09@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "posthtml-include": "^1.7.4"
+  }
+}

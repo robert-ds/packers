@@ -61,6 +61,9 @@ Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
+dist/
+.parcel-cache
+
 # Dump file
 *.stackdump
 
