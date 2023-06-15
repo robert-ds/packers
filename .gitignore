@@ -63,6 +63,7 @@ ehthumbs_vista.db
 
 dist/
 .parcel-cache
+package-lock.json
 
 # Dump file
 *.stackdump

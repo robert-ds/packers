@@ -1,0 +1,30 @@
+{
+  "name": "esbuild",
+  "version": "1.0.0",
+  "description": "Simple use Esbuild",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=public/bundle.js",
+    "build:dev": "node esbuild.dev.js",
+    "start": "node esbuild.config.js -w",
+    "open": "open public/index.html"
+  },
+  "keywords": [
+    "esbuild",
+    "React"
+  ],
+  "author": "Robert Vásquez <vasquezrober09@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.18.2",
+    "esbuild-serve": "^1.0.1"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.3"
+  },
+  "type": "module"
+}
